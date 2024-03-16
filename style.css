@@ -2,6 +2,10 @@
     padding:0;
     margin: 0;
     text-align: center;
+    
+ }
+ .back{
+    background-image:"back.jpg";
  }
 h1{
     background-color: black;
@@ -11,8 +15,8 @@ h1{
      line-height: 5rem;
 }
 .game{
-    width: 165px;
-    height: 165px;
+    width: 155px;
+    height: 155px;
     border-radius: 50%;
      display: flex;
 
@@ -22,7 +26,7 @@ img{
     width:150px;
     object-fit: cover;
     border-radius: 50%;
-
+    visibility: visible;
 }
 .game:hover{
     cursor: pointer;
